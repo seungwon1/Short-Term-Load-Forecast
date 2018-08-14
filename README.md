@@ -13,4 +13,4 @@ Implemented load forecast algorithms to predict dailiy peak load.
 
 ### Future work 
 - Using Recurrent Neural Networks, Long Short Term Memory
-- Applying Reinforcement Learning to handle cooling load
+- Applying Reinforcement Learning to efficiently operate cooling load
