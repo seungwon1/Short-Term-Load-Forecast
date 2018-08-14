@@ -1,4 +1,4 @@
-# Short-Term-Load-Forecast
+# Short-Term-Load-Forecast (Day ahead peak load forecast)
 Implemented load forecast algorithms to predict day-ahead dailiy peak load.
 
 ### Architecture
