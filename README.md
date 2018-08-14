@@ -1,5 +1,5 @@
 # Short Term Load Forecast
-Implemented load forecast algorithms to predict one day ahead hourly peak load.
+Implemented algorithms to forecast one day ahead hourly peak load.
 
 ### Architecture
 - Multivariate Linear Regression - (1)
