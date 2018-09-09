@@ -31,7 +31,7 @@ class linear_regression(object):
         dy_hat = (y_hat-y)/m
         
         dW, db, dX = affine_backward(dy_hat, cache)
-        grads['W1'] = dW + self.reg*np.sum(W1)
+        grads['W1'] = dW + self.reg*(W1)
         grads['b1'] = db
         
         return loss, grads
@@ -78,7 +78,7 @@ class two_layer_net(object):
         dscore = (score - y) / m
         
         dW2, db2, dX2 = affine_backward(dscore, cache2)
-        grads['W2'] = dW2 + self.reg*np.sum(W2)
+        grads['W2'] = dW2 + self.reg*(W2)
         grads['b2'] = db2
         dA1 = dX2
             
@@ -90,7 +90,7 @@ class two_layer_net(object):
                 
         
         dW1, db1, dX1 = affine_backward(dZ1, cache1)
-        grads['W1'] = dW1 + self.reg*np.sum(W1)
+        grads['W1'] = dW1 + self.reg*(W1)
         grads['b1'] = db1
             
         return loss, grads
